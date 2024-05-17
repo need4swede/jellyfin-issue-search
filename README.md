@@ -3,16 +3,14 @@
 
 This project is a simple web page that allows users to search and explore issues for the Jellyfin repository on GitHub. The issues are filtered for > v10.9 and it categorizes issues into Closed, Replied, and Pending sections based on their status and comments.
 
+### [https://jellyfin-issues.netlify.app](https://jellyfin-issues.netlify.app)
+
 ## Features
 
 - **Search Issues**: Search for issues by keywords.
 - **Categorization**: Issues are categorized into Closed, Replied, and Pending sections.
 - **Comments Display**: Shows the latest comments from Members and Contributors.
 - **Exclusion of Bot Comments**: Excludes comments from specified bots (e.g., jellyfin-bot).
-
-## Usage
-
-**Website**: [https://jellyfin-issues.netlify.app](https://jellyfin-issues.netlify.app)
 
 ## Project Structure
 
