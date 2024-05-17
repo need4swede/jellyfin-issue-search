@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jellyfin 10.9.x Issues</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://jellyfin.org/images/favicon.ico" type="image/x-icon">
+    <meta name="description"
+        content="Search for issues in Jellyfin 10.9.x. Find and explore open, closed, and pending issues.">
+    <meta name="keywords" content="Jellyfin, GitHub, issues, 10.9.x, media server, open source">
+    <meta name="author" content="need4swede">
+    <meta property="og:title" content="Jellyfin 10.9.x Issues">
+    <meta property="og:description"
+        content="Search for issues in Jellyfin 10.9.x. Find and explore open, closed, and pending issues.">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/45698031?s=200&v=4">
+    <meta property="og:url" content="https://github.com/need4swede">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Jellyfin 10.9.x Issues">
+    <meta name="twitter:description"
+        content="Search for issues in Jellyfin 10.9.x. Find and explore open, closed, and pending issues.">
+    <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/45698031?s=200&v=4">
+</head>
+
+<body>
+    <img id="logo" src="https://jellyfin.org/images/logo.svg" alt="Jellyfin Logo">
+    <h1>10.9.x Issues</h1>
+    <input type="text" id="search-bar" placeholder="Keywords...">
+    <button onclick="searchIssues()">Search</button>
+    <p class="examples">e.g. 'video', 'server', 'login', 'subtitle', 'audio', 'tv', 'season'</p>
+    <p class="legend"><span class="member">Member</span> <span class="examples">|</span> <span
+            class="contributor">Contributor</span></p>
+    <div id="results">
+        <div id="closed-results" class="column">
+            <h2>Closed</h2>
+        </div>
+        <div id="replied-results" class="column">
+            <h2>Replied</h2>
+        </div>
+        <div id="pending-results" class="column">
+            <h2>Pending</h2>
+        </div>
+    </div>
+    <footer>
+        <p>Created by <a href="https://github.com/need4swede" target="_blank">need4swede</a></p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
